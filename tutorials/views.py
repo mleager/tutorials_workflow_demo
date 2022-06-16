@@ -26,7 +26,7 @@ class index(APIView):
 
     def get(self, request):
         queryset = Tutorial.objects.all()
-        return Response({'tutorials': queryset})
+        #return Response({'tutorials': queryset})
 
 
 class list_all_tutorials(APIView):
