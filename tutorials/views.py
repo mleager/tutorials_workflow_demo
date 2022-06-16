@@ -19,7 +19,7 @@ from rest_framework.decorators import api_view
 #     queryset = Tutorial.objects.all()
 #     return render(request, "tutorials/index.html", {'tutorials': queryset})
 
-
+"""
 class index(APIView):
     renderer_classes = [TemplateHTMLRenderer]
     template_name = 'tutorials/index.html'
@@ -27,7 +27,7 @@ class index(APIView):
     def get(self, request):
         queryset = Tutorial.objects.all()
         return Response({'tutorials': queryset})
-
+"""
 
 class list_all_tutorials(APIView):
     renderer_classes = [TemplateHTMLRenderer]
