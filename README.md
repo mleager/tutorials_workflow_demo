@@ -10,6 +10,8 @@ Objective:
       
       - Execute on push or pull requests to main branch, and run manually
       
+            (even updating this README.md will execute the workflow) 
+      
       - Set runner as ubuntu-latest
       
       - Define the steps of the job:
